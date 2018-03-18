@@ -1,0 +1,38 @@
+pg -> epsilon, INT, IDF
+odv -> INT, epsilon
+ldv ->  INT
+ldvb -> ',' , epsilon
+dv -> INT
+ott -> '[' , epsilon
+ldf -> IDF , epsilon
+df -> IDF
+lp -> '('
+oldv -> INT, epsilon
+i -> IDV, '{', SI, TQ, IDF, RET, ECR, ';'
+iaff -> IDV
+ib -> '{'
+li -> IDV, '{', SI, TQ, IDF, RET, ECR, ';', epsilon
+isi -> SI
+osinon -> SIN , epsilon
+itq -> TQ
+iapp -> IDF
+iret -> RET
+iecr -> ECR
+ivide -> ';'
+exp -> '!', '(' , NB, LIRE , IDF, IDV
+expB -> '|' , epsilon
+conj -> '!', '(' , NB, LIRE , IDF, IDV
+conjB -> '&' , epsilon
+neg -> '!' , '(' , NB, LIRE , IDF, IDV
+comp -> '(' , NB, LIRE , IDF, IDV
+compb -> '=' , '<' , epsilon
+e -> '(' , NB, LIRE , IDF, IDV
+eb -> '+' , '-' , epsilon
+t -> '(' , NB, LIRE , IDF, IDV
+tb -> '*', '/' , epsilon
+f -> '(' , NB, LIRE , IDF, IDV
+var -> IDV
+oind -> '[' , epsilon
+appf -> IDF
+lexp -> '!', '(' , NB, LIRE , IDF, IDV , epsilon
+lexpb -> ',' , epsilon

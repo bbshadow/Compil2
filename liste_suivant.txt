@@ -1,0 +1,38 @@
+pg -> bottom
+odv -> p(ldf), p(ib), s(pg)
+ldv -> ';', s(oldv)
+ldvb -> s(ldv)
+dv -> p(ldvb),s(ldv),s(ldvb)
+ott -> s(dv)
+ldf -> s(pg)
+df ->
+lp ->
+oldv -> ')'
+i -> p(li)
+iaff -> 
+ib -> 
+li -> '}'
+isi -> s(i)
+osinon -> s(isi)
+itq 
+iapp 
+iret
+iecr
+ivide
+exp -> ';',')','fr','alr',']',p(lexpb)
+expB -> s(exp)
+conj -> p(expb)
+conjB -> s(conj)
+neg -> p(conjb)
+comp -> s(neg)
+compb -> s(comp)
+e -> p(compb)
+eb -> s(e)
+t -> p(eb)
+tb -> s(t)
+f ->
+var -> s(f)
+oind -> s(var)
+appf 
+lexp -> ')'
+lexpb -> s(lexp)

@@ -1,0 +1,66 @@
+pg -> bottom
+odv -> IDF, '{', bottom
+
+ldv -> ';', ')'
+
+ldvb -> ';' , ')' 
+
+dv -> ',' ,';' , ')'  
+
+ott -> ',' ,';' , ')' 
+ldf -> bottom
+
+df -> IDF
+
+lp -> 
+
+oldv -> ')'
+
+i -> IDV, '{', SI, TQ, IDF, RET, ECR, ';'
+
+iaff -> 
+
+ib -> 
+
+li -> '}'
+
+isi -> IDV, '{', SI, TQ, IDF, RET, ECR, ';'
+
+osinon -> IDV, '{', SI, TQ, IDF, RET, ECR, ';'
+
+itq 
+
+iapp
+exp -> ';',')','fr','alr',']',','
+
+expB -> ';',')','fr','alr',']',','
+
+conj -> '|', ';',')','fr','alr',']',','
+
+conjB -> '|', ';',')','fr','alr',']',','
+
+neg -> '&' , '|', ';',')','fr','alr',']',','
+
+comp -> '&'
+
+compb -> '&' 
+
+e -> '=' , '<'  , '&'
+
+eb -> '=' , '<' , '&'
+
+t -> '+' , '-' , '=' , '<'  , '&'
+
+tb ->  '+' , '-' , '=' , '<'  , '&' 
+
+f -> '*', '/', '+', '-'
+
+var -> '*', '/', '+', '-'
+
+oind -> '*', '/', '+', '-'
+
+appf 
+
+lexp -> ')'
+
+lexpb -> ')'
