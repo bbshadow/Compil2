@@ -58,6 +58,7 @@ void listeDecVariables(){
    declarationVariable();
    listeDecVariablesBis();
   }
+  //test
   else {
   	//Test
     printf( "Erreur de syntaxe 4 : %d", uniteCourante );
